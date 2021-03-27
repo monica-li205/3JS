@@ -3,74 +3,56 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 1776,
+      "count": 4675,
       "max": [
-        319.682861328125,
-        872.2001953125,
-        237.35551452636719
+        13.323686599731445,
+        16.662933349609375,
+        13.366377830505371
       ],
       "min": [
-        -206.40316772460938,
-        -64.767692565917969,
-        -246.10285949707031
+        -12.990525245666504,
+        -1.939388632774353,
+        -10.545746803283691
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 21312,
+      "byteOffset": 56100,
       "componentType": 5126,
-      "count": 1776,
+      "count": 4675,
       "max": [
-        0.99956762790679932,
-        0.99999743700027466,
-        0.99976909160614014
+        1,
+        1,
+        1
       ],
       "min": [
-        -0.99970316886901855,
-        -0.99823254346847534,
-        -0.99972414970397949
+        -1,
+        -1,
+        -1
       ],
       "type": "VEC3"
     },
     {
-      "bufferView": 3,
-      "componentType": 5126,
-      "count": 1776,
-      "max": [
-        0.99964427947998047,
-        0.97490471601486206,
-        0.99898064136505127,
-        1
-      ],
-      "min": [
-        -0.999744713306427,
-        -0.99030804634094238,
-        -0.9988592267036438,
-        -1
-      ],
-      "type": "VEC4"
-    },
-    {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 1776,
+      "count": 4675,
       "max": [
-        0.23556216061115265,
-        0.99205178022384644
+        0.99825763702392578,
+        0.99865067005157471
       ],
       "min": [
-        0.015427976846694946,
-        0.067129358649253845
+        0.0087673068046569824,
+        0.00049566663801670074
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 5256,
+      "count": 11484,
       "max": [
-        1775
+        4674
       ],
       "min": [
         0
@@ -80,62 +62,59 @@
   ],
   "asset": {
     "extras": {
-      "author": "BitGem (https://sketchfab.com/bitgem)",
+      "author": "nigelgoh (https://sketchfab.com/nigelgoh)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/birch-tree-proto-series-free-f0203eb84beb4d638d148e2116f5dbf7",
-      "title": "Birch Tree - Proto Series - Free"
+      "source": "https://sketchfab.com/3d-models/viking-room-a49f1b8e4f5c4ecf9e1fe7d81915ad38",
+      "title": "Viking room"
     },
-    "generator": "Sketchfab-5.68.0",
+    "generator": "Sketchfab-8.94.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 21024,
+      "byteLength": 45936,
       "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 14208,
-      "byteOffset": 21024,
+      "byteLength": 37400,
+      "byteOffset": 45936,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 42624,
-      "byteOffset": 35232,
+      "byteLength": 112200,
+      "byteOffset": 83336,
       "byteStride": 12,
-      "name": "floatBufferViews",
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 28416,
-      "byteOffset": 77856,
-      "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 106272,
+      "byteLength": 195536,
       "uri": "scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "textures/birch_red_mat_baseColor.png"
+      "uri": "textures/Texture1_baseColor.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "name": "birch_red_mat",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Texture1",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           1,
@@ -154,16 +133,15 @@
   ],
   "meshes": [
     {
-      "name": "birch_tree_SC_free_birch_red_mat_0",
+      "name": "mesh_all1_Texture1_0",
       "primitives": [
         {
           "attributes": {
             "NORMAL": 1,
             "POSITION": 0,
-            "TANGENT": 2,
-            "TEXCOORD_0": 3
+            "TEXCOORD_0": 2
           },
-          "indices": 4,
+          "indices": 3,
           "material": 0,
           "mode": 4
         }
@@ -211,7 +189,7 @@
         0,
         1
       ],
-      "name": "9f0524934cc54779aa1fdf0de5be3f5b.fbx"
+      "name": "vikingroom.fbx"
     },
     {
       "children": [
@@ -223,11 +201,11 @@
       "children": [
         5
       ],
-      "name": "birch_tree_SC_free"
+      "name": "mesh_all1"
     },
     {
       "mesh": 0,
-      "name": "birch_tree_SC_free_birch_red_mat_0"
+      "name": "mesh_all1_Texture1_0"
     }
   ],
   "samplers": [
